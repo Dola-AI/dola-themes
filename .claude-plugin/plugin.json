@@ -1,0 +1,56 @@
+{
+  "name": "dola-themes",
+  "version": "1.0.0",
+  "description": "Animated themes for the Claude desktop app: 26 looks with light and dark modes, switched with /dola-<name>",
+  "author": {
+    "name": "Dola AI",
+    "url": "https://dolaai.pro"
+  },
+  "homepage": "https://dolaai.pro",
+  "repository": "https://github.com/Dola-AI/dola-themes",
+  "license": "MIT",
+  "keywords": [
+    "themes",
+    "backdrop",
+    "animation",
+    "dark-mode",
+    "light-mode"
+  ],
+  "userConfig": {
+    "speed": {
+      "type": "string",
+      "title": "Animation speed",
+      "description": "How fast the backdrop moves: calm, normal or lively.",
+      "options": [
+        "calm",
+        "normal",
+        "lively"
+      ],
+      "default": "normal"
+    },
+    "glass": {
+      "type": "string",
+      "title": "Frosted glass",
+      "description": "Veil over the backdrop: clear (sharp but dimmed so text stays readable), off, light, strong, or default (the app blur).",
+      "options": [
+        "clear",
+        "off",
+        "light",
+        "strong",
+        "default"
+      ],
+      "default": "clear"
+    },
+    "startMode": {
+      "type": "string",
+      "title": "Start mode",
+      "description": "Light or dark, until you pick one with /dola-mode.",
+      "options": [
+        "dark",
+        "light"
+      ],
+      "default": "dark"
+    }
+  },
+  "icon": ".claude-plugin/icon.png"
+}

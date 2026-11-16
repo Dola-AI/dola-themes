@@ -1,0 +1,15 @@
+{
+  "name": "dola-themes",
+  "owner": {
+    "name": "Dola AI",
+    "url": "https://dolaai.pro"
+  },
+  "description": "Animated themes for the Claude desktop app, from dolaai.pro",
+  "plugins": [
+    {
+      "name": "dola-themes",
+      "source": "./",
+      "description": "Animated themes for the Claude desktop app: 26 looks with light and dark modes, switched with /dola-<name>"
+    }
+  ]
+}
